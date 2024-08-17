@@ -1,1 +1,1 @@
-console.log('change4.js');
+console.log('change.js');
