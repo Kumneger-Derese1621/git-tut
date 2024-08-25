@@ -4,9 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Room Service</title>
+  <style>
+    button{
+      padding: 1rem 2rem;
+      background: orangered;
+      border: none;
+      border-radius: 4px;
+      margin: 0 1rem;
+      font-weight: bold;
+      margin-left: 20rem;
+    }
+    #room {
+      width : 50vw;
+      margin: 2rem auto;
+      min-height : 5rem;
+      padding : 20px;
+      border: 3px gray dotted; 
+      border-radius: .4rem;
+    }
+  </style>
 </head>
 <body>
   <h1>Room Heading</h1>
   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta maxime voluptatem magnam minus hic eius quae maiores officia, aut nisi, illo similique tenetur quam obcaecati velit modi? Voluptatem, ipsum modi?</p>
+
+<h1 style="text-decoration: 8px red underline; text-align: center; color: rgb(202, 6, 48);">Interactive Box</h1>
+
+<div id="room"></div>
+<button id="set">Set Content</button>
+<button id="clear">Clear Content</button>
+
+
+  <script src="/app/kim.js"></script>
 </body>
 </html>
